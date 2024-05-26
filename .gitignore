@@ -82,6 +82,7 @@ output/
 .idea/compiler.xml
 .idea/misc.xml
 
+
 # Android Studio
 .gradle
 /local.properties
