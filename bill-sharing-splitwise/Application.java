@@ -14,15 +14,11 @@ public class Application {
         createUserBase(manager);
 
         final ExpenseManager expenseManager = new ExpenseManager(manager);
-        for (int i = 1; i < 2; i++) {
-            createSampleInputForEqual(expenseManager, i);
 
-            createSampleInputForExact(expenseManager, i);
-            createSampleInputForExact2(expenseManager, i);
-            createSampleInputForEqual2(expenseManager, i);
-        }
-//        System.out.println(expenseManager.showAllExpensesOfParticipant("Vibhor"));
-//        System.out.println(expenseManager.showAllExpensesOfParticipant("Vibhor"));
+        createSampleInputForEqual(expenseManager, 1);
+        createSampleInputForExact(expenseManager, 1);
+        createSampleInputForExact2(expenseManager, 1);
+        createSampleInputForEqual2(expenseManager, 1);
 
         List<String> result = expenseManager.showAllExpensesOptimized();
         System.out.println(result);
