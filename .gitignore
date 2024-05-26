@@ -1,0 +1,247 @@
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# Virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Gradle
+.gradle
+build/
+
+# Windows
+*.bat
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS Thumbnail files
+._*
+
+# macOS Finder metadata files
+.Spotlight-V100
+.Trashes
+
+# macOS Disk images
+.VolumeIcon.icns
+
+# macOS cleanup file
+._*
+
+# macOS hidden files
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+
+# macOS Directories
+*/.DocumentRevisions-V100
+*/.fseventsd
+*/.Spotlight-V100
+*/.TemporaryItems
+*/.Trashes
+*/.VolumeIcon.icns
+*/.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+output/
+.idea/LLDs.iml
+.idea/compiler.xml
+.idea/misc.xml
+
+# Android Studio
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+/.idea/vcs.xml
+.idea/
+*.iml
+build/
+captures/
+
+# Eclipse
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+
+# VS Code
+.vscode/
+
+# Output directory
+out/
+build/
+dist/
+
+# Other
+*.class
+*.log
+*.jar
+*.war
+*.ear
+*.tmp
+*.swp
+*~
+*.*.sw?
+*.DS_Store
+._*
+.DS_Store
+
+# Lombok
+.lombok/
+lombok.config
+
+# JetBrains
+# User-specific stuff
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+
+# Sensitive or high-churn files
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+.idea/assetWizardSettings.xml
+.idea/dataSources.local.xml
+.idea/dataSources.html
+
+# Generated files
+*.class
+*.dll
+*.exe
+*.cache
+*.ico
+*.jar
+*.pyc
+*.pyo
+*.swp
+*.zip
+*.tar.gz
+*.log
+*.vspscc
+*.vssscc
+*.orig
+*.pid
+*.seed
+*.swo
+*.swn
+*.bak
+*.swp
+*.swx
+*.bak2
+*.bak3
+*.bak4
+*.bak5
+*.bak6
+*.bak7
+*.bak8
+*.bak9
+*.rej
+*.tmp
+*.diff
+*.orig
+*.sav
+
+# JetBrains specific
+.idea/
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/assetWizardSettings.xml
+.idea/**/dataSources.ids
+.idea/**/dataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/taskAttachments.xml
+.idea/**/tasks.xml
+
+# SonarQube
+.sonar/
+.scannerwork/
+
+# Gradle
+.gradle/
+build/
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+!gradlew
+!gradlew.bat
+.idea/libraries/Gradle__com_eclipse_gradle_*.xml
+
+# Eclipse
+/.settings/
+!/**/.settings
+/.project
+!/**/.project
+/.classpath
+!/**/.classpath
+.classpath
+.project
+.settings/
+
+# JetBrains specific
+.idea/
+
+# Maven specific
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+target/
+
+# External tool configuration
+*.launch
+*.externalToolBuilders

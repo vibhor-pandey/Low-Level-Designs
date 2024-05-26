@@ -55,6 +55,7 @@ public class LRUCache<K, V> implements Cache<K, V> {
             return null;
         }
         final QueueNode<K, V> node = cacheMap.get(key);
+        //Remove Node
         node.getPrev().setNext(node.getNext());
         node.getNext().setPrev(node.getPrev());
 

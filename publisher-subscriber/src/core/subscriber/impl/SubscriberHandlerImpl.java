@@ -19,6 +19,7 @@ public class SubscriberHandlerImpl implements SubscriberHandler {
         this.queueHandler.init();
     }
 
+    //Singleton
     private static class InstanceHolder {
         private static final SubscriberHandlerImpl INSTANCE = new SubscriberHandlerImpl();
     }
